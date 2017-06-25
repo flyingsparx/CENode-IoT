@@ -24,8 +24,8 @@ If you have Philips hue bulbs and a working hue bridge then you can run this dem
 
 1. Clone repository: `git clone git@github.com:flyingsparx/CENode-IoT.git`
 1. Change into the repository: `cd CENode-IoT`
-1. Install dependencies: `npm install`
-1. Find your Philips hue's address on your local network and [generate a username](https://developers.meethue.com/documentation/configuration-api#71_create_user) that you'll use to authenticate your requests
+1. Install dependencies (only CENode itself): `npm install`
+1. Find your Philips hue bridge's address on your local network and [generate a username](https://developers.meethue.com/documentation/configuration-api#71_create_user) that you'll use to authenticate your requests
 1. Update the model in [app.js](https://github.com/flyingsparx/CENode-IoT/blob/master/app.js#L9) to use the bridge address and the generated username as the `token`
 1. Startup a quick webserver: `python -m SimpleHTTPServer`
 1. Visit [localhost:8000](http://localhost:8000)
