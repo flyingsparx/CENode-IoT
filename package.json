@@ -1,0 +1,8 @@
+{
+  "name": "CENode-IoT",
+  "version": "1.0.0",
+  "author": "Will Webberley",
+  "dependencies": {
+    "cenode": "^3.0.8"
+  }
+}

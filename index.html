@@ -1,0 +1,26 @@
+<html>
+  <body>
+
+    <h1>CENode IoT</h1>
+    <div style="width:400px;display:inline-block;float:left;">
+      <h2>CE instruction</h2>
+      <h4>Speech recognised <button id="listen">Listen</button></h4>
+      <input type="text" id="speech-area" style="width:380px;" disabled=disabled></textarea>
+      <h4>Translated CE</h4>
+      <textarea id="last-instruction" style="width:300px;height:100px;"></textarea>
+      <button id="send-ce">Submit</button>
+
+      <h2>Lights <button id="update-lights">Refresh</button></h2>
+      <ul id="lights"></ul>
+    </div>
+
+    <div style="width:350px;display:inline-block;float:left;">
+      <h4>Submitted sentences</h4>
+      <div id="submitted-sentences"></div>
+    </div>
+    
+    <script src="node_modules/cenode/dist/cenode.min.js"></script>
+    <script src="node_modules/cenode/dist/models.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
