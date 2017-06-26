@@ -1,6 +1,6 @@
 # CENode IoT Demo
 
-This is a simple demo illustrating how CENode may be used to interact with IoT devices - in particluar, Philips hue bulbs.
+This is a simple demo illustrating how CENode may be used to interact with IoT devices - in particluar, Philips hue bulbs. See [this blog post](https://flyingsparx.net/2017/06/26/cenode-iot) for more information.
 
 If unfamiliar with CENode, then please check out [that project](https://github.com/flyingsparx/CENode) first and read the [wiki](https://github.com/flyingsparx/CENode/wiki) and glance at the [documentation](http://cenode.io/docs/documentation.pdf) and [paper](http://cenode.io/docs/intro.pdf).
 
